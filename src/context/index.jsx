@@ -1,14 +1,5 @@
-import { ProductProvider } from "./product"
+import Provider from "./Provider";
+import { useProduct } from "./product";
 
 
-const Provider = ({ children }) => {
-
-  return (
-    <ProductProvider>
-      {children}
-    </ProductProvider>
-  )
-}
-
-
-export default Provider
+export { Provider, useProduct}
