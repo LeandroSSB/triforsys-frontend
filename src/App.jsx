@@ -1,3 +1,4 @@
+import { useProduct } from "./context/product"
 
 function App() {
 
