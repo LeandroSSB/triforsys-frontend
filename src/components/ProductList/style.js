@@ -10,4 +10,5 @@ export const Container = styled(Paper)`
   align-items: center;
   flex-flow: column;
   overflow-y: auto;
+  padding: 20px 30px;
 `
