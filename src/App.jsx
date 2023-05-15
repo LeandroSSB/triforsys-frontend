@@ -1,13 +1,12 @@
-import { CreateProduct } from "./components"
+import { CreateProduct, Header, ProductList } from "./components"
 import { useProduct } from "./context"
 
 function App() {
 
   return (
     <>
-      <CreateProduct>
-        
-      </CreateProduct>
+      <CreateProduct/>
+      <ProductList/>
     </>
   )
 }
