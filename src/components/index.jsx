@@ -1,4 +1,4 @@
 import Header from "./Header/index"
-import Form from "./Form"
+import CreateProduct from "./CreateProduct"
 
-export { Header, Form }
+export { Header, CreateProduct }
