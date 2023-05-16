@@ -12,9 +12,13 @@ export const ProductProvider  = ({ children }) => {
   const removeProduct = ( product ) => {
 
   }
+  
+  const editProduct = ( product ) => {
+
+  }
 
   return (
-    <productContext.Provider value={{ product, createProduct, removeProduct }}>
+    <productContext.Provider value={{ product, createProduct, removeProduct, editProduct }}>
       {children}
     </productContext.Provider>
   )
